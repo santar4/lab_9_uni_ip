@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список завдань</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Список завдань</h1>
+
+    <label for="name">Нове завдання:</label>
+    <input type="text" id="name" name="name" placeholder="Введіть завдання">
+    <br><br>
+
+    <input type="checkbox" id="done" name="done" value="done">
+    <label for="done">Виконано</label><br>
+
+    <input type="checkbox" id="important" name="important" value="important">
+    <label for="important">Важливе</label><br><br>
+
+    <b>Поточне завдання:</b>
+    <label id="taskList">Завдання</label><br><br>
+
+    <button onclick="saveData()">Додати завдання</button>
+    <button onclick="getData()">Показати завдання</button>
+    <button onclick="removeData()">Видалити завдання</button>
+    <button onclick="clearData()">Очистити список</button>
+</body>
+</html>
