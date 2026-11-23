@@ -17,3 +17,12 @@ button {
 #taskList {
     font-weight: bold;
 }
+
+.error {
+    color: red;
+    margin-left: 8px;
+}
+
+input.invalid {
+    border: 1px solid red;
+}
